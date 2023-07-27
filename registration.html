@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--Name: Lei Luo 
+File: registration.html 
+Date: July 23, 2023
+Description: 
+1- Using client-side form validation using DOM manipulation.
+2- Tracing submitted form data using a GET header (for testing
+purposes).
+-->
+
+<html lang="en">
+<head>
+     
+     <!--The following are meta tags used for SEO purposes-->
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Apply form validation for Weekly Kitten Pictures  website  .">
+     <meta name="keywords" content="kitten, form, login">
+     <meta name="author" content="Freda Luo"> 
+    <link rel="stylesheet" href="weeklykitten.css">
+    <script src="js/script.js" defer></script>
+    <title>Lab 5 - JavaScript 1</title>
+</head>
+<body>
+    <div class="main">
+    <div class="formcontainer">
+        <h1>Weekly Kitten Pictures Subsription</h1>
+        <hr>
+        <form action="registration.html" method="get" onsubmit="return validate();">
+            <!-- You will need to write the validate function for this form. -->
+
+            <div class="textfield">
+                <label for="email">Email Address</label><br>
+                <input type="text" name="email" id="email" placeholder="Email" required>
+            </div>
+
+            <div class="textfield">
+                <label for="login">User Name</label><br>
+                <input type="text" name="login" id="login" placeholder="User name" required>
+            </div>
+
+            <div class="textfield">
+                <label for="pass">Password</label><br>
+                <input type="password" name="pass" id="pass" placeholder="Password" required>
+            </div>
+        
+            <div class="textfield">
+                <label for="pass2">Re-type Password</label><br>
+                <input type="password" id="pass2" placeholder="Password" required>
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" name="newsletter" id="newsletter">
+                <label for="newsletter">I agree to receive Weekly Kitten Pictures newsletters</label>
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" name="terms" id="terms">
+                <label for="terms">I agree to the terms and conditions</label>
+            </div>
+<div class="buttons">
+            <button type="submit">Sign-Up</button>
+            <button type="reset">Reset</button>
+</div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
