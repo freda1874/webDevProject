@@ -1,0 +1,78 @@
+/*--Name: Lei Luo 
+File: inspiration.css 
+Date: July 15, 2023
+Description: An inspirational quotes css file
+ 
+ */
+ body {
+    font-family: 'Abel', Arial, sans-serif;
+    font-size: 18px;
+    background-color: rgba(250, 235, 215);
+}
+
+#quote {
+
+
+    border-radius: 15pt;
+    text-align: center;
+    background: rgba(95, 158, 160);
+    padding: 20px 30px 20px 30px;
+    margin: 50px auto;
+    width: 80%;
+    border: solid 5px black;
+}
+
+#quotetext {
+    font-size: 22px;
+}
+
+#quoteauthor {
+    font-style: italic;
+    text-align: right;
+    margin: 5px 80px 5px 5px;
+}
+
+
+/* 
+15. 
+16. Submit your code to an HTML validator (https://validator.w3.org/) and take a
+screenshot of a properly validated HTML page, do the same with a CSS validator
+(https://jigsaw.w3.org/css-validator/). */
+
+
+#buttonbox {
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+}
+
+
+
+
+button {
+    background-color: rgba(213, 217, 217, .5);
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    color: #0f1111;
+    font-family: "Amazon Ember", sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    cursor: pointer;
+    width: auto;
+    user-select: none;
+}
+
+footer {
+    text-align: center;
+    font-size: 10pt;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
